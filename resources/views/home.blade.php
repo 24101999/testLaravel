@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="info-link">
                                     <a :id="index" :href="dado.url" :v-if="index > dado.cliques? reload() :'' " @@click="click(e)" target="_blank">@{{msg}}</a>
-                                    <p>👉 @{{element}}/@{{dado.cliques}} </p>
+                                    <p>👉 @{{index}}/@{{dado.cliques}} </p>
                                 </div>
                             </div>
                         </div>
